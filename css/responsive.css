@@ -1,0 +1,94 @@
+@media only screen and (max-width: 1024px){
+.nav{flex:inherit; max-width:none;}
+.menu-bar{display:inline-block;}
+.nav .menu{display: none; background:#111; box-shadow:0 -8px 6px 0 #000 inset;}
+.fa-bars{display:block; float:right;}
+span.fa-bars::before{display:none;}
+.menu .fa-bars{margin:10px 20px;}
+.nav ul{clear:both; display:block; }
+.nav ul li{border-bottom: 0 none;float: none; display:block; text-align:left; padding:0px 0px; border-radius:0px;border-bottom: 1px solid #222;}
+.nav ul li a, .nav ul li.last a, .nav ul li a.active{padding:13px 20px; color:#fff; border:0px;text-align:left;}
+.nav ul li ul li a{padding:10px 10px 10px 30px; border-bottom:1px solid #222;}
+.nav ul li:hover ul li a{border-bottom:0;}
+.nav .menu{position:fixed; top:0px; right:0px; display:none; width:240px; z-index:999999!important; height:120%; overflow:scroll;}
+.nav .menu ul{overflow:auto;height:100%; }
+.nav ul li.last{padding:0px;}
+.nav ul li a:hover{color:#fff; background:#659ebc; border:0px;}
+.nav ul li:hover a{border:0px;}
+.nav ul li ul{position:static; top:0px; left:0px;}
+.nav ul li:hover ul{display:none;}
+.nav ul li ul{width:100%; background:none; box-shadow:none;}
+.nav ul li a .fa{float:right; font-size:14px; margin-top:3px}
+.logo{padding:10px 0 10px 20px; width:60%;}
+.search a{padding:0; font-size: 24px; color:#00b140;}
+.search{margin:15px 20px 0 0; background:none;}
+.helpSec h4{line-height:36px;}
+.nav ul li.dropdown::after{top:22px; right:20px;}
+.nav ul li a:hover, .nav ul li:hover a{background:none;}
+.widgetBox .half{float:none; width:100%; padding-bottom:1px;}
+.buy-btn::before{left:47%;}
+.payment-option p{text-align:center;}
+
+}
+@media only screen and (max-width: 800px){
+.half{float:none; width:100%;}
+.half img{width:100%;}
+.blueSec .col-md-3{border-bottom:1px solid #343971; border-right:0; padding-bottom:30px;}
+.insight{max-width:400px; margin:20px auto;}
+.width85{width:100%; min-height:inherit;}
+.outcomeSec{padding:30px 0; background-size:cover;}
+.outcomeBox{margin-top:30px;}
+.holder{margin:20px 0;}
+.joinSec{background-size:auto; text-align:center; padding:40px 0;}
+.footer .col-md-3{padding-bottom:20px;}
+.footer .col-md-4{overflow:hidden; padding-bottom:10px;}
+.social{text-align:left; padding-top:10px;}
+.title{pointer-events:auto;}
+.widgetBox{display:none;}
+.title{padding-left:45px;}
+.title::after{left:15px;}
+.title::before{right:15px; content:"\f078"; position:absolute; font-size:20px; font-weight:normal; top:15px; font-family:"fontAwesome"}
+.widget{margin-bottom:30px;}
+}
+
+@media only screen and (max-width: 700px){
+.banner .item{padding:50px 20px; min-height:inherit;}
+.exp{padding:30px 0;}
+.inner-banner{min-height:inherit;}
+.inner-banner h1{padding:100px 0; font-size:36px;}
+.det, .buy{float:none; width:100%; border-right:0;}
+.buy{padding-top:15px; margin-top:15px; border-top:1px solid #eee;}
+.small-insight{width:25%;}
+.insightDet{width:72%;}
+.insightDet h3{font-size:28px;}
+.btn-default{margin-bottom:5px;}
+.tag{margin-bottom:10px;}
+.nav-tabs li a{padding:20px 20px;}
+}
+
+
+@media only screen and (max-width: 480px){
+.banner h2{font-size:24px;}
+.banner p{font-size:18px; line-height:28px;}
+.common h2{font-size:28px;}
+.common h3{font-size:22px;}
+.exp .cover .half.last{padding:20px;}
+.exp .cover .ticker{font-size: 20px;max-width: 175px; padding:15px 25px;}
+.blueSec h5{font-size:45px;}
+.searchBox .searchFld, .searchBox button, .searchBox .fa-times{font-size:22px;}
+.sort .col-sm-6{text-align:left!important; padding:5px 15px!important;}
+.resultBox{padding:20px;}
+.inner-banner h1{padding:70px 0;}
+.stepBox .stepClm h4{font-size:13px;}
+.mode span.s{width:49%;}
+.small-insight, .insightDet{float:none; width:100%;}
+.small-insight .fig .figure{max-height:200px;}
+.small-insight .context{padding:20px; min-height:100px;}
+.small-insight .context p{font-size:20px; line-height:auto;}
+}
+@media only screen and (max-width: 470px){
+.nav-tabs li{width:50%; }
+.nav-tabs li a{box-shadow: #bbb 0px 0px 1px;}
+.btn-default{display:block; width:100%; margin-right:0;}
+.buy-btn::before {left: 40%;}
+}
